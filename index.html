@@ -7,7 +7,7 @@
 
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/lucide@latest"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght=300;400;500;600;700;800&display=swap" rel="stylesheet"/>
 
   <script>
     tailwind.config = {
@@ -16,12 +16,12 @@
           fontFamily: { sans: ['Plus Jakarta Sans', 'sans-serif'] },
           colors: {
             lipedema: {
-              primary: '#a855f7', /* Roxo vibrante para botões e destaques */
+              primary: '#a855f7', 
               primaryHover: '#9333ea',
-              dark: '#3b0764', /* Roxo profundo premium */
+              dark: '#3b0764', 
               slate: '#0f172a',
-              accent: '#f59e0b', /* Dourado para alertas e bônus */
-              light: '#faf5ff' /* Fundo lilás bem suave para blocos de transição */
+              accent: '#f59e0b', 
+              light: '#faf5ff' 
             }
           }
         }
@@ -152,137 +152,4 @@
           <p class="text-xs text-slate-500">As refeições são simples, fáceis de preparar e pensadas para quem trabalha fora e tem pouco tempo livre.</p>
         </div>
         <div class="text-center">
-          <div class="w-14 h-14 bg-purple-50 text-lipedema-primary rounded-full flex items-center justify-center mx-auto mb-6"><i data-lucide="shopping-bag" class="w-7 h-7"></i></div>
-          <h4 class="font-bold mb-2">Não queira gastar muito</h4>
-          <p class="text-xs text-slate-500">Esqueça ingredientes importados caríssimos. A base do tratamento utiliza comida de verdade acessível no mercado.</p>
-        </div>
-        <div class="text-center">
-          <div class="w-14 h-14 bg-purple-50 text-lipedema-primary rounded-full flex items-center justify-center mx-auto mb-6"><i data-lucide="shield-alert" class="w-7 h-7"></i></div>
-          <h4 class="font-bold mb-2">Ache que Lipedema não tem jeito</h4>
-          <p class="text-xs text-slate-500">Embora não tenha cura definitiva, a nutrição funcional consegue reduzir drasticamente o estágio de dor e o volume do inchaço.</p>
-        </div>
-      </div>
-      <div class="mt-16 text-center">
-        <a href="#oferta" class="text-lipedema-primary font-bold underline decoration-2 underline-offset-4 hover:text-lipedema-primaryHover">
-            Quero aliviar minhas pernas hoje →
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <section class="py-24 bg-lipedema-light">
-    <div class="max-w-5xl mx-auto px-6 grid md:grid-cols-12 gap-12 items-center">
-      <div class="md:col-span-5 flex justify-center">
-        <div class="relative">
-            <div class="absolute -inset-4 bg-lipedema-primary/20 rounded-full blur-xl"></div>
-            <img src="camila.webp" alt="Camila Diniz" class="relative w-72 h-72 rounded-full object-cover border-8 border-white shadow-2xl" onerror="this.src='https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=1470&auto=format&fit=crop';">
-        </div>
-      </div>
-      <div class="md:col-span-7">
-        <h2 class="text-3xl font-extrabold text-lipedema-slate mb-4">Camila Diniz <span class="text-sm font-normal text-slate-400">CRN9-33882</span></h2>
-        <p class="text-lipedema-primary font-bold mb-6">Nutricionista & Farmacêutica especialista em Nutrição Funcional 👩‍⚕️</p>
-        <p class="text-slate-600 leading-relaxed mb-4">
-          Unindo minha bagagem na ciência farmacêutica com a prática clínica nutricional, desenvolvi um olhar focado em modular a inflamação de dentro para fora.
-        </p>
-        <p class="text-slate-600 leading-relaxed">
-          O **Protocolo Lipedema** nasceu para dar um norte claro e científico para as mulheres que sofrem em silêncio. Chega de tratamentos ineficazes: aqui você tem a estratégia alimentar exata para retomar as rédeas da sua qualidade de vida.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <section id="oferta" class="py-24 bg-white relative">
-    <div class="max-w-4xl mx-auto px-6 text-center">
-      <h2 class="text-4xl font-extrabold mb-4 uppercase tracking-tighter">Conquiste o alívio que você merece por apenas <span class="text-lipedema-accent">R$ 47</span> 💜</h2>
-      <p class="text-slate-500 mb-12">Invista na sua saúde com acesso imediato e vitalício.</p>
-
-      <div class="bg-white rounded-[40px] shadow-[0_20px_50px_rgba(0,0,0,0.1)] border-2 border-lipedema-primary overflow-hidden max-w-sm mx-auto transform hover:scale-105 transition-all">
-        <div class="bg-lipedema-primary text-white py-4 text-sm font-bold tracking-widest uppercase">
-          🔥 PROTOCOLO COMPLETO DE ALTA ATIVAÇÃO
-        </div>
-        <div class="p-10">
-          <h3 class="text-2xl font-black text-lipedema-slate mb-6">PROTOCOLO LIPEDEMA 30 DIAS</h3>
-          <ul class="text-left space-y-4 mb-10 text-sm text-slate-600 font-medium">
-            <li class="flex gap-2 items-center"><i data-lucide="check" class="text-lipedema-primary"></i> Cardápio Completo de 30 Dias</li>
-            <li class="flex gap-2 items-center"><i data-lucide="check" class="text-lipedema-primary"></i> Guia de Chás e Alimentos Chave</li>
-            <li class="flex gap-2 items-center"><i data-lucide="check" class="text-lipedema-primary"></i> Lista de Compras Inteligente</li>
-            <li class="flex gap-2 items-center"><i data-lucide="check" class="text-lipedema-primary"></i> Sugestão de Suplementação Segura</li>
-          </ul>
-          <div class="mb-10">
-            <span class="text-slate-400 line-through block">De R$ 197,00</span>
-            <span class="text-slate-500 block">Por apenas</span>
-            <div class="text-5xl font-black text-lipedema-dark my-2">R$ 47,00</div>
-            <span class="text-xs font-bold text-lipedema-primary">Pagamento único • Sem mensalidades</span>
-          </div>
-          <a href="https://pay.hotmart.com/X102148113Y?sck=HOTMART_PRODUCT_PAGE&off=7aet61s2&hotfeature=32&bid=1778940846059" target="_blank" class="btn-pulse block w-full bg-lipedema-primary text-white py-5 rounded-2xl font-extrabold text-lg uppercase">
-            Quero o Protocolo Agora!
-          </a>
-          <div class="mt-6 flex justify-center gap-4 text-[10px] text-slate-400 uppercase font-bold">
-            <span class="flex items-center gap-1"><i data-lucide="lock" class="w-3 h-3"></i> Seguro</span>
-            <span class="flex items-center gap-1"><i data-lucide="shield-check" class="w-3 h-3"></i> Garantido</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="py-16 bg-slate-50">
-    <div class="max-w-3xl mx-auto px-6 flex flex-col md:flex-row items-center gap-8 border-2 border-dashed border-slate-200 p-8 rounded-3xl">
-        <div class="w-24 h-24 shrink-0 bg-white shadow-xl rounded-full flex items-center justify-center text-lipedema-accent">
-            <i data-lucide="award" class="w-12 h-12"></i>
-        </div>
-        <div>
-            <h3 class="text-xl font-extrabold text-lipedema-slate mb-2">Garantia Incondicional de 7 Dias 🛡️</h3>
-            <p class="text-sm text-slate-500 leading-relaxed">
-                Você tem uma semana inteira para testar o protocolo. Se achar que as receitas anti-inflamatórias não se adaptam à sua rotina ou não gostar do material, basta solicitar o reembolso na Hotmart e devolvemos 100% do seu dinheiro. O seu risco é zero.
-            </p>
-        </div>
-    </div>
-  </section>
-
-  <section class="py-24 bg-white">
-    <div class="max-w-3xl mx-auto px-6">
-      <h2 class="text-3xl font-extrabold text-center mb-16">Perguntas Frequentes 🙋‍♀️</h2>
-      <div class="space-y-6">
-        <div class="border-b border-slate-100 pb-4">
-          <h4 class="font-bold text-slate-700 flex justify-between items-center cursor-pointer">Como vou receber o material? <i data-lucide="plus" class="w-4 h-4 text-lipedema-primary"></i></h4>
-          <p class="text-xs text-slate-500 mt-2">Imediatamente após a aprovação da compra pela Hotmart, os dados de acesso contendo o e-book e os guias chegam automaticamente no e-mail cadastrado.</p>
-        </div>
-        <div class="border-b border-slate-100 pb-4">
-            <h4 class="font-bold text-slate-700 flex justify-between items-center cursor-pointer">Esse plano serve para qualquer estágio do Lipedema? <i data-lucide="plus" class="w-4 h-4 text-lipedema-primary"></i></h4>
-            <p class="text-xs text-slate-500 mt-2">Sim! Seja no estágio 1 ou nos mais avançados, modular a inflamação do tecido por meio da alimentação funcional é indispensável para aliviar as dores e frear a evolução da doença.</p>
-        </div>
-        <div class="border-b border-slate-100 pb-4">
-            <h4 class="font-bold text-slate-700 flex justify-between items-center cursor-pointer">Vou precisar parar de comer tudo o que gosto? <i data-lucide="plus" class="w-4 h-4 text-secando-primary"></i></h4>
-            <p class="text-xs text-slate-500 mt-2">Não. O foco do protocolo é focar na inclusão de alimentos altamente antioxidantes e protetores vasculares, oferecendo listas de substituição inteligentes.</p>
-        </div>
-        <div class="border-b border-slate-100 pb-4">
-            <h4 class="font-bold text-slate-700 flex justify-between items-center cursor-pointer">O pagamento é uma mensalidade? <i data-lucide="plus" class="w-4 h-4 text-lipedema-primary"></i></h4>
-            <p class="text-xs text-slate-500 mt-2">Não, você paga o valor único de R$ 47,00 uma única vez e garante o acesso permanente para ler quando quiser.</p>
-        </div>
-        <div class="border-b border-slate-100 pb-4">
-            <h4 class="font-bold text-slate-700 flex justify-between items-center cursor-pointer">Tem sugestões de suplementos inclusas? <i data-lucide="plus" class="w-4 h-4 text-lipedema-primary"></i></h4>
-            <p class="text-xs text-slate-500 mt-2">Sim! Forneço orientações baseadas em evidências sobre antioxidantes e ativos naturais que ajudam no manejo clínico do Lipedema.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <footer class="py-16 bg-lipedema-slate text-slate-500 text-center text-xs">
-    <div class="max-w-5xl mx-auto px-6">
-        <p class="mb-4">© 2024 Camila Diniz | CRN9-33882 | Todos os direitos reservados.</p>
-        <div class="flex justify-center gap-6 mb-12">
-            <a href="#" class="hover:text-white">Termos de Uso</a>
-            <a href="#" class="hover:text-white">Privacidade</a>
-        </div>
-        <p class="text-[9px] lowercase italic normal-case max-w-lg mx-auto">
-            Este material destina-se a fins informativos e de reeducação alimentar. Não substitui o diagnóstico ou tratamento médico individualizado.
-        </p>
-    </div>
-  </footer>
-
-  <script>
-    lucide.createIcons();
-  </script>
-</body>
-</html>
+          <div class="w-14 h-14 bg-purple-50 text-lipedema-primary rounded-full flex items-center justify-center mx-auto
